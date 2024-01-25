@@ -5,4 +5,4 @@
 <h2>Illustration of <b>Lap</b> feature</h2>
 ![Preview2](https://github.com/Ujwal-27K/PRODIGY_WD_02/assets/143314040/c99dd2f7-0d2d-41ad-8aed-5cb673979853)
 
-<img style="height:400px; width: 400px" src="Preview1.png" />
+<img style="height:400px; width: 600px" src="Preview1.png" />
