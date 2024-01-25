@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha256-..." crossorigin="anonymous" />
+    <link rel="stylesheet" href="styles.css">
+    <title>Professional Stopwatch</title>
+</head>
+<body>
+    <div class="stopwatch">
+        <div class="watch-icon">
+            <i class="fas fa-stopwatch fa-5x"></i> <!-- Adjust the size with "fa-3x" or other classes -->
+        </div>
+        <div class="time" id="display">00:00:00.000</div>
+        <div class="controls">
+            <button id="startPause" onclick="startPause()">
+                <i class="fas fa-stopwatch"></i> Start
+            </button>
+            <button onclick="reset()">
+                <i class="fas fa-sync-alt"></i> Reset
+            </button>
+            <button onclick="lap()">
+                <i class="fas fa-flag"></i> Lap
+            </button>
+
+        </div>
+        <div id="laps" class="laps"></div>
+        <div id="history" class="history"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
